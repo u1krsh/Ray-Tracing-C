@@ -4,12 +4,12 @@
 #include <SDL2/SDL.h>
 #include <math.h> 
 #define SDL_MAIN_HANDLED
-#define WIDTH 900
-#define HEIGHT 600
+#define WIDTH 1366
+#define HEIGHT 768
 #define COLOR_WHITE 0xffffffff
 #define COLOR_BLACK 0x00000000
 #define COLOR_YELLOW 0xffff00
-#define RAYS_NUMBER 100
+#define RAYS_NUMBER 1000
 #define COLOR_GRAY 0x808080
 
 //circle struct
@@ -129,8 +129,4 @@ int main(int argc, char *argv[]){
         SDL_Delay(10);
 
     }
-
-
-
-
 }
